@@ -1,0 +1,8 @@
+name: libs-arc-ui
+version: '${project.version}'
+main: com.fentai.libsarcui.LibsArcUiPlugin
+api-version: '1.21'
+folia-supported: true
+softdepend: [CraftEngine]
+description: YAML-driven, non-interactive static display-entity UI renderer.
+author: fentai

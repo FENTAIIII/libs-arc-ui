@@ -1,0 +1,24 @@
+# 文件每隔多少 tick 检查一次。1 tick = 50ms。
+monitor:
+  interval-ticks: 2
+
+editing:
+  # self：绕自身中心旋转（原模式）。
+  # parent：子层级和元素绕父节点中心旋转，offset 也随自身 rotation 转动。
+  # 顶层没有父节点，仍绕 center 旋转。修改此项即时生效。
+  rotation-pivot: self
+
+render:
+  # 顶层 settings.yml 未指定世界时使用。
+  default-world: world
+  # z-index 每增加 1 所产生的局部 Z 偏移，用来避免图层闪烁。
+  z-step: 0.0001
+  view-range: 64.0
+  brightness:
+    block: 15
+    sky: 15
+  shadow-radius: 0.0
+  shadow-strength: 0.0
+
+# 首次启动时创建一个默认关闭的完整例子。
+create-example: true

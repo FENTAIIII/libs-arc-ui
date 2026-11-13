@@ -1,0 +1,26 @@
+type: text
+visible: true
+offset:
+  x: 0.0
+  y: 0.25
+  z: 0.0
+rotation:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+scale:
+  x: 1.0
+  y: 1.0
+  z: 1.0
+z-index: 2
+text:
+  content: '&fArc UI'
+  font: minecraft:default
+  character-size: 1.0
+  character-size-offset: 0.0
+  opacity: 255
+  alignment: center
+  line-width: 200
+  shadowed: false
+  see-through: false
+  background-argb: [0, 0, 0, 0]

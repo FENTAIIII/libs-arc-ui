@@ -1,0 +1,19 @@
+type: rectangle
+visible: true
+offset:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+rotation:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+scale:
+  x: 1.0
+  y: 1.0
+  z: 1.0
+z-index: 0
+rectangle:
+  argb: [230, 18, 20, 26]
+  width: 3.4
+  height: 1.4
